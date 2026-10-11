@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexa Digital | Websites for Businesses</title>
+<meta name="description" content="Modern websites for shops, restaurants, schools and growing businesses.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0b1020;--card:#151d32;--purple:#8b5cf6;--cyan:#22d3ee;--white:#f8fafc}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:var(--bg);color:var(--white);line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{padding:18px 8%;display:flex;align-items:center;justify-content:space-between;
+background:#0b1020ed;position:sticky;top:0;z-index:10;border-bottom:1px solid #25304a}
+.logo{font-size:25px;font-weight:900}
+.logo span{color:var(--cyan)}
+nav{display:flex;gap:22px;align-items:center}
+nav a:hover{color:var(--cyan)}
+.btn{display:inline-block;padding:12px 22px;border-radius:9px;
+background:linear-gradient(100deg,var(--purple),#536dfe);font-weight:bold;border:0;color:white;cursor:pointer}
+.btn:hover{opacity:.85}
+section{padding:75px 8%}
+.hero{min-height:540px;display:flex;align-items:center;
+background:radial-gradient(ellipse at 80% 30%,#46317b55,transparent 50%)}
+.hero-content{max-width:750px}
+.tag{color:var(--cyan);font-weight:bold;letter-spacing:2px;font-size:13px}
+h1{font-size:clamp(38px,6vw,66px);line-height:1.12;margin:20px 0}
+h1 span{background:linear-gradient(90deg,#a78bfa,var(--cyan));
+-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p,.intro{color:#b8c2d9;font-size:17px;max-width:650px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.btn-outline{border:1px solid #53617d;background:transparent}
+.stats{display:flex;gap:35px;flex-wrap:wrap;margin-top:38px}
+.stats strong{font-size:24px;display:block}
+.stats small{color:#aab5cc}
+.section-head{text-align:center;margin-bottom:35px}
+h2{font-size:clamp(28px,4vw,40px);margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.card{background:var(--card);padding:27px;border:1px solid #28334d;border-radius:16px}
+.card .emoji{font-size:32px}
+.card h3{margin:12px 0 8px}
+.card p{color:#b8c2d9;font-size:15px}
+.card ul{padding-left:20px;color:#cbd5e1;margin:15px 0}
+.card li{margin:5px 0}
+.price{font-size:30px;font-weight:900;margin:15px 0}
+.price small{font-size:13px;color:#aab5cc;font-weight:normal}
+.featured{border-color:var(--purple);box-shadow:0 0 28px #8b5cf622}
+.label{font-size:12px;color:var(--cyan);font-weight:bold}
+.contact{background:linear-gradient(135deg,#17152e,#102a40)}
+.contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}
+form{display:grid;gap:13px}
+input,textarea,select{width:100%;padding:14px;background:#0b1020;color:white;
+border:1px solid #34405a;border-radius:8px;font:inherit}
+textarea{min-height:120px;resize:vertical}
+footer{padding:28px 8%;text-align:center;color:#aab5cc;border-top:1px solid #28334d}
+footer a{color:var(--cyan)}
+.note{font-size:13px;color:#aab5cc;margin-top:12px}
+@media(max-width:750px){
+ header{padding:15px 5%;flex-wrap:wrap;gap:12px}
+ nav{gap:13px;flex-wrap:wrap;font-size:13px}
+ nav .btn{padding:8px 12px}
+ section{padding:55px 6%}
+ .grid{grid-template-columns:1fr}
+ .contact-wrap{grid-template-columns:1fr}
+ .stats{gap:20px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="#home" class="logo">NEXA<span> DIGITAL</span></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact" class="btn">Contact Us</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="tag">YOUR BUSINESS. YOUR FUTURE.</div>
+    <h1>We Build Websites That <span>Grow Your Business.</span></h1>
+    <p>Give your business a professional online presence.
+       We create beautiful, fast and mobile-friendly websites
+       for businesses ready to grow.</p>
+    <div class="actions">
+      <a class="btn" href="#contact">Start Your Project ↗</a>
+      <a class="btn btn-outline" href="#services">Explore Services</a>
+    </div>
+    <div class="stats">
+      <div><strong>Modern</strong><small>Designs</small></div>
+      <div><strong>Mobile</strong><small>Friendly</small></div>
+      <div><strong>Custom</strong><small>Solutions</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-head">
+    <div class="tag">WHAT WE DO</div>
+    <h2>Our Services</h2>
+    <p class="intro" style="margin:auto">Everything your business needs to get started online.</p>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <div class="emoji">💻</div>
+      <h3>Business Websites</h3>
+      <p>Professional websites for local businesses, shops and companies.</p>
+    </article>
+    <article class="card">
+      <div class="emoji">🛍️</div>
+      <h3>Online Stores</h3>
+      <p>Showcase your products and prepare your business for online sales.</p>
+    </article>
+    <article class="card">
+      <div class="emoji">🎨</div>
+      <h3>Website Redesign</h3>
+      <p>Give an existing website a fresh, modern and responsive look.</p>
+    </article>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="section-head">
+    <div class="tag">SIMPLE PACKAGES</div>
+    <h2>Choose Your Plan</h2>
+    <p class="intro" style="margin:auto">Example prices in Pakistani rupees. Customize these for your clients.</p>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <h3>Starter</h3>
+      <p>Perfect for a small business.</p>
+      <div class="price">Rs. 8,000</div>
+      <ul>
+        <li>One-page website</li>
+        <li>Mobile-friendly design</li>
+        <li>Contact information</li>
+        <li>Basic customization</li>
+      </ul>
+      <a class="btn" href="#contact" onclick="choosePlan('Starter')">Choose Starter</a>
+    </article>
+    <article class="card featured">
+      <div class="label">POPULAR PACKAGE</div>
+      <h3>Professional</h3>
+      <p>For a growing business.</p>
+      <div class="price">Rs. 15,000</div>
+      <ul>
+        <li>Up to five pages</li>
+        <li>Custom design</li>
+        <li>Contact form layout</li>
+        <li>WhatsApp contact link</li>
+      </ul>
+      <a class="btn" href="#contact" onclick="choosePlan('Professional')">Choose Professional</a>
+    </article>
+    <article class="card">
+      <h3>Premium</h3>
+      <p>For businesses needing more.</p>
+      <div class="price">Rs. 30,000</div>
+      <ul>
+        <li>Up to ten pages</li>
+        <li>Advanced visual design</li>
+        <li>Product or service pages</li>
+        <li>Extra features by agreement</li>
+      </ul>
+      <a class="btn" href="#contact" onclick="choosePlan('Premium')">Choose Premium</a>
+    </article>
+  </div>
+  <p class="note">Prices are examples, not guaranteed market rates. Hosting, domain names, online payments and maintenance may cost extra.</p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-wrap">
+    <div>
+      <div class="tag">LET'S WORK TOGETHER</div>
+      <h2>Have a Project in Mind?</h2>
+      <p class="intro">Tell us what kind of website you need. We will prepare your project inquiry in WhatsApp.</p>
+      <p style="margin-top:22px">✉️ Email: yourname@example.com</p>
+      <p>📱 WhatsApp: Add your business number</p>
+      <p class="note">Replace the sample contact details before publishing.</p>
+    </div>
+    <form id="contactForm">
+      <input id="name" placeholder="Your name" required>
+      <input id="email" type="email" placeholder="Your email (optional)">
+      <select id="plan">
+        <option value="Not selected">Choose a package</option>
+        <option>Starter</option>
+        <option>Professional</option>
+        <option>Premium</option>
+        <option>Custom project</option>
+      </select>
+      <textarea id="message" placeholder="Tell us about your project" required></textarea>
+      <button class="btn" type="submit">Send Inquiry on WhatsApp ↗</button>
+      <p class="note">This form opens WhatsApp. It does not save information to a database.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> Nexa Digital. Customize this website for your brand.</p>
+  <p style="margin-top:8px">Designed with care for growing businesses.</p>
+</footer>
+
+<script>
+// IMPORTANT: Replace this with your WhatsApp number.
+// Use country code and digits only, without + or spaces.
+const WHATSAPP_NUMBER = "923001234567";
+
+function choosePlan(plan) {
+  document.getElementById("plan").value = plan;
+}
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const plan = document.getElementById("plan").value;
+  const message = document.getElementById("message").value.trim();
+
+  const text = `Website inquiry\nName: ${name}\nEmail: ${email || "Not provided"}\nPackage: ${plan}\nProject: ${message}`;
+  const url = "https://wa.me/" + WHATSAPP_NUMBER + "03191098516"+ encodeURIComponent(text);
+
+  window.open(url, "_blank");
+});
+</script>
+
+</body>
+</html>
